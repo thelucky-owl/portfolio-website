@@ -12,7 +12,7 @@ export const NavBar = () =>{
         {/* <img src={} alt="Logo"></img> */}
       </Navbar.Brand>
       <Nav className="me-auto">
-        <Nav.Link href="#person-info">About me</Nav.Link>
+        <Nav.Link href="#about-me">About me</Nav.Link>
         <Nav.Link href="#werk">Werk</Nav.Link>
         <Nav.Link href="#CV">CV</Nav.Link>
       </Nav>
