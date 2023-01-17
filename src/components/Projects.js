@@ -17,10 +17,6 @@ export const Projects = ()=>{
         const itemsToSelect = showDetail.map((item, i) => {
             if(index !== i) item  = false
             if (index === i) item = !item;
-                // if(){
-                // }
-            
-            
             return item;
             }, []);
             setShowDetail(itemsToSelect);
