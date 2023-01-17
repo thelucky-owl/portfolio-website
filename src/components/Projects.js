@@ -2,39 +2,37 @@ import { Container, Col, Row,Nav, Tab, Collapse } from "react-bootstrap"
 import {ProjectCard}from './projectCard';
 import {ProjectDetails}from './projectDetails';
 import { projectsInfo } from "../assets/projectsInfo";
+import { CourseWork} from "../assets/CourseWork";
+import { PersonalWork} from "../assets/PersonalWork";
 import { useState } from "react";
 
 export const Projects = ()=>{
     const[showDetail, setShowDetail] = useState([
-        {   id:0,
-            visible:false
-        },
-        {   id:1,
-            visible:false
-        },
-        {   id:2,
-            visible:false
-        },
-        {   id:3,
-            visible:false
-        },
+       false,
+       false,
+       false,
+       false
     ]);
     function clickHandler(index){
-            const itemsToSelect = showDetail.map((item, i) => {
-            if(index !== i) item.visible  = false
-            if (index === i) item.visible = !item.visible;
+        const itemsToSelect = showDetail.map((item, i) => {
+            if(index !== i) item  = false
+            if (index === i) item = !item;
+                // if(){
+                // }
+            
+            
             return item;
             }, []);
             setShowDetail(itemsToSelect);
         }
     return(
-        <section className="projects" id="werk">
+        <section className="projects" id="projects">
             <Container>
                 <Row>
                     <Col>
-                        <h2>Werk</h2>
+                        <h2>My work</h2>
                         <p>
-                            some stuff
+                            Some project that ive worked on, either in my study or for myself.
                         </p>
                         <Tab.Container id="projects-tabs" defaultActiveKey="1">
                         <Nav variant="pills">
@@ -55,12 +53,13 @@ export const Projects = ()=>{
                                     
                                         projectsInfo.map((project,index)=>{
                                             return(
-                                                <Collapse in={showDetail[index].visible} >
+                                                <Collapse in={showDetail[index]} >
                                                 <div 
+                                                key={index}
                                                 id={index.toString()}
-                                                className={ showDetail[index].visible ? 'proj-detail.open' : 'proj-detail'}
+                                                className={ showDetail[index] ? 'proj-detail.open' : 'proj-detail'}
                                                 aria-controls={index}
-                                                aria-expanded={showDetail[index].visible}
+                                                aria-expanded={showDetail[index]}
                                                 >
                                                 <ProjectDetails key={index} {...project}/>
                                                 </div>
@@ -86,13 +85,77 @@ export const Projects = ()=>{
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="2">
-                                <Row>
-                                    loren ipsum
+                            <Row>
+                                {
+                                    
+                                        CourseWork.map((project,index)=>{
+                                            return(
+                                                <Collapse in={showDetail[index]} >
+                                                <div 
+                                                key={index}
+                                                id={index.toString()}
+                                                className={ showDetail[index] ? 'proj-detail.open' : 'proj-detail'}
+                                                aria-controls={index}
+                                                aria-expanded={showDetail[index]}
+                                                >
+                                                <ProjectDetails key={index} {...project}/>
+                                                </div>
+                                                </Collapse>
+                                            )
+                                        })
+                                    }
+                                </Row>
+                                <Row  >
+                                    {
+                                       
+                                        CourseWork.map((project,index)=>{
+                                            return(
+                                                //maybe use case in onclick
+                                                //onclick={()=>{ if index =0/1/2/3/ then change showdetail 0/1/2/3 coresponding to eachother}}
+                                                // ()=>setShowDetail(!showDetail)
+                                               <Col id={index} sm={6} md={4} onClick={ ()=> clickHandler(index)} >
+                                                <ProjectCard  key={index} {...project} />
+                                                </Col>
+                                                )
+                                        })
+                                    }
                                 </Row>
                             </Tab.Pane>
                             <Tab.Pane eventKey="3">
-                                <Row>
-                                    loren ipsum
+                            <Row>
+                                {
+                                    
+                                        PersonalWork.map((project,index)=>{
+                                            return(
+                                                <Collapse in={showDetail[index]} >
+                                                <div 
+                                                key={index}
+                                                id={index.toString()}
+                                                className={ showDetail[index] ? 'proj-detail.open' : 'proj-detail'}
+                                                aria-controls={index}
+                                                aria-expanded={showDetail[index]}
+                                                >
+                                                <ProjectDetails key={index} {...project}/>
+                                                </div>
+                                                </Collapse>
+                                            )
+                                        })
+                                    }
+                                </Row>
+                                <Row  >
+                                    {
+                                       
+                                        PersonalWork.map((project,index)=>{
+                                            return(
+                                                //maybe use case in onclick
+                                                //onclick={()=>{ if index =0/1/2/3/ then change showdetail 0/1/2/3 coresponding to eachother}}
+                                                // ()=>setShowDetail(!showDetail)
+                                               <Col id={index} sm={6} md={4} onClick={ ()=> clickHandler(index)} >
+                                                <ProjectCard  key={index} {...project} />
+                                                </Col>
+                                                )
+                                        })
+                                    }
                                 </Row>
                             </Tab.Pane>
                         </Tab.Content>
