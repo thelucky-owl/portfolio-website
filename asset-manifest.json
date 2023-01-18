@@ -1,28 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.43461841.css",
-    "main.js": "/portfolio-website/static/js/main.31e1385b.js",
+    "main.css": "/portfolio-website/static/css/main.e2fda6be.css",
+    "main.js": "/portfolio-website/static/js/main.778e7ea1.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/moon.png": "/portfolio-website/static/media/moon.0918a3a3d2de27a5a14a.png",
     "static/media/laravel 2.png": "/portfolio-website/static/media/laravel 2.74444671ac8ea376f734.png",
-    "static/media/gradient-forest-landscape.png": "/portfolio-website/static/media/gradient-forest-landscape.ef39e37db5aeda06371e.png",
     "static/media/laravel 3.png": "/portfolio-website/static/media/laravel 3.e83e11b303f1af1b9bc6.png",
     "static/media/seriousGame1.png": "/portfolio-website/static/media/seriousGame1.255fdc454a448bdb226a.png",
+    "static/media/landscapePortfolio.png": "/portfolio-website/static/media/landscapePortfolio.59fa63ab554e539de365.png",
+    "static/media/nightscape2.png": "/portfolio-website/static/media/nightscape2.722d7f9f645435f6cedd.png",
     "static/media/project-img1.png": "/portfolio-website/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/project-img2.png": "/portfolio-website/static/media/project-img2.2e52097c417f9f1134b0.png",
     "static/media/laravel 4.png": "/portfolio-website/static/media/laravel 4.badb90ad2036837b4ae7.png",
     "static/media/maritiemMuseum1.png": "/portfolio-website/static/media/maritiemMuseum1.61e9d6a3bfbcdf9d78b9.png",
     "static/media/project-img3.png": "/portfolio-website/static/media/project-img3.675b30d2f975a1bc1d09.png",
-    "static/media/forrestLake2.png": "/portfolio-website/static/media/forrestLake2.071b777bb6aa2f6b2565.png",
     "static/media/laravel 1.png": "/portfolio-website/static/media/laravel 1.72e562753a6df539acd2.png",
-    "static/media/sun.png": "/portfolio-website/static/media/sun.8e43a128df2c439ea266.png",
     "index.html": "/portfolio-website/index.html",
-    "main.43461841.css.map": "/portfolio-website/static/css/main.43461841.css.map",
-    "main.31e1385b.js.map": "/portfolio-website/static/js/main.31e1385b.js.map",
+    "main.e2fda6be.css.map": "/portfolio-website/static/css/main.e2fda6be.css.map",
+    "main.778e7ea1.js.map": "/portfolio-website/static/js/main.778e7ea1.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43461841.css",
-    "static/js/main.31e1385b.js"
+    "static/css/main.e2fda6be.css",
+    "static/js/main.778e7ea1.js"
   ]
 }
