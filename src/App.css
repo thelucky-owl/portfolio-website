@@ -103,6 +103,16 @@ body{
   position: relative;
   background-color: black;
 }  
+#about-me-img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+#about-me-img-caption{
+  font-style: italic;
+  font-size: small;
+}
 /* projects */
 
 
