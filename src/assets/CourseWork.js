@@ -3,6 +3,18 @@ import laravelImg1 from '../assets/images/laravel 1.png'
 import laravelImg2 from '../assets/images/laravel 2.png'
 import laravelImg3 from '../assets/images/laravel 3.png'
 import laravelImg4 from '../assets/images/laravel 4.png'
+import seriousGame1 from '../assets/images/courseWork/seriousGame/seriousGame1.png'
+import seriousGame2 from '../assets/images/courseWork/seriousGame/seriousGame2.png'
+import seriousGame3 from '../assets/images/courseWork/seriousGame/seriousGame3.png'
+import seriousGame4 from '../assets/images/courseWork/seriousGame/seriousGame4.png'
+import seriousGame5 from '../assets/images/courseWork/seriousGame/seriousGame5.png'
+import seriousGame6 from '../assets/images/courseWork/seriousGame/seriousGame6.png'
+import seriousGame7 from '../assets/images/courseWork/seriousGame/seriousGame7.png'
+import seriousGame8 from '../assets/images/courseWork/seriousGame/seriousGame8.png'
+import pixelart1 from '../assets/images/courseWork/pixelArt/cat.gif'
+import pixelart2 from '../assets/images/courseWork/pixelArt/cat-game-bg.png'
+import pixelart3 from '../assets/images/courseWork/pixelArt/prg4 birdy.gif'
+import ontPoster from '../assets/images/courseWork/ontPoster.jpg'
 import img1 from '../assets/images/laravel 1.png'
 import img2 from '../assets/images/maritiemMuseum1.png'
 import img3 from '../assets/images/seriousGame1.png'
@@ -23,7 +35,7 @@ export const CourseWork =[
         imgUrl:img2,
         detailDescription: "For a first year design course I had to come up with a technological addition to the maritime museum in Rotterdam. I designed this poster to show off my idea for a vr addition to the museum.",
         showing: false,
-        carouselImgUrls:[img1,img2,img3]
+        carouselImgUrls:[ontPoster]
     },
     {
         id:"3",
@@ -32,15 +44,15 @@ export const CourseWork =[
         imgUrl:img3,
         detailDescription: "For an elective course I, along with two classmate, had to create a serious game concept. Our concept centred around children with selective mutism, we wanted to inspire them to communicate with friends/classmate by encouraging teamwork through a game.",
         showing: false,
-        carouselImgUrls:[img1,img2,img3]
+        carouselImgUrls:[seriousGame1,seriousGame2,seriousGame3,seriousGame4,seriousGame5,seriousGame6,seriousGame7,seriousGame8]
     },
     {
         id:"4",
         title:"Pixel art",
         description:"",
-        imgUrl:img3,
+        imgUrl:pixelart2,
         detailDescription: "Some pixel art made for programming courses that went unfortunately unused",
         showing: false,
-        carouselImgUrls:[img1,img2,img3]
+        carouselImgUrls:[pixelart1,pixelart2,pixelart3]
     },
 ];
