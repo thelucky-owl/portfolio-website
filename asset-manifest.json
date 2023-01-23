@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.66e530fe.css",
-    "main.js": "/portfolio-website/static/js/main.ec148315.js",
+    "main.css": "/portfolio-website/static/css/main.824a3414.css",
+    "main.js": "/portfolio-website/static/js/main.e74b5bd6.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio-website/static/js/787.749b4a44.chunk.js",
     "static/media/embroidery3.jpg": "/portfolio-website/static/media/embroidery3.41d5df96f6062fca01a6.jpg",
     "static/media/lizardDrawing.jpg": "/portfolio-website/static/media/lizardDrawing.4d78d329dc68facf30e3.jpg",
@@ -21,6 +21,7 @@
     "static/media/raspberry.png": "/portfolio-website/static/media/raspberry.48c72f952d45490faed1.png",
     "static/media/cle1Poster.png": "/portfolio-website/static/media/cle1Poster.2b5c645ad48f557fe6d1.png",
     "static/media/mini2.jpg": "/portfolio-website/static/media/mini2.10e16c501f20e6177913.jpg",
+    "static/media/museumMeNOot.jpg": "/portfolio-website/static/media/museumMeNOot.0822510afd52383a0dc4.jpg",
     "static/media/seriousGame2.png": "/portfolio-website/static/media/seriousGame2.b040beba031159e10f67.png",
     "static/media/TLE3 start.jpg": "/portfolio-website/static/media/TLE3 start.7b16faafd9836317cdff.jpg",
     "static/media/mini3.jpg": "/portfolio-website/static/media/mini3.8d12ef949ae0c29ad799.jpg",
@@ -55,12 +56,12 @@
     "static/media/prg4 birdy.gif": "/portfolio-website/static/media/prg4 birdy.371f7fc0af7fad5abc81.gif",
     "static/media/cat-game-bg.png": "/portfolio-website/static/media/cat-game-bg.757bbc1968db0480e6b3.png",
     "index.html": "/portfolio-website/index.html",
-    "main.66e530fe.css.map": "/portfolio-website/static/css/main.66e530fe.css.map",
-    "main.ec148315.js.map": "/portfolio-website/static/js/main.ec148315.js.map",
+    "main.824a3414.css.map": "/portfolio-website/static/css/main.824a3414.css.map",
+    "main.e74b5bd6.js.map": "/portfolio-website/static/js/main.e74b5bd6.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio-website/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66e530fe.css",
-    "static/js/main.ec148315.js"
+    "static/css/main.824a3414.css",
+    "static/js/main.e74b5bd6.js"
   ]
 }
