@@ -6,9 +6,9 @@ return(
         <Container>
             <h2 id="about-me-title">About me</h2>
             <div className="about-me-content">
-                <p>Hello! I'm Fela, a third year student CMGT at Rotterdam university of applied sciences. In my study i've done ux design, front end and back-end development, mainly javascript and php. In my free time I love to go on walks with my dog, as well as play tabletop rpgs with my friends or play video games.</p>
+                <p>Hello! I'm Fela, a third year student CMGT at Rotterdam university of applied sciences. In my study i've done UI and UX design, programming wise i've done front end, back-end and mobile development, mainly javascript and php. In my free time I love to go on walks with my dog, as well as draw, paint, play D&D with my friends and play video games.</p>
                 <img id="about-me-img" src={imgSource} alt="img of fela and a sibling"></img>
-                <p id="about-me-img-caption">A photo of me, on the right, and one of my siblings, on the left.</p>
+                <p id="about-me-img-caption">A photo of me, on the right, and one of my siblings, on the left, at natural history museum naturalis.</p>
             </div>
         </Container>
     </section>
