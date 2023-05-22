@@ -6,11 +6,17 @@ body{
 .App {
   text-align: center;
 }
-
+.read-button:hover{
+  background-color: #186d1b !important;
+  border: #1b6e1d solid 1px !important;
+  color: #B8B8B8;
+}
 .read-button{
   background-color: #268b2a !important;
   border: #1e7a21 solid 1px !important;
   margin-bottom: 8px;
+
+  /* font-family: var(--bs-body-font-family) !important; */
 }
 
 .banner{
