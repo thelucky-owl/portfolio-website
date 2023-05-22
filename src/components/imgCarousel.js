@@ -1,12 +1,10 @@
 import Carousel from 'react-bootstrap/Carousel';
 export const ImgCarousel = ({imgSource})=>{
-  console.log(imgSource[1])
       return (
         
         <Carousel className="img-carousel" interval={null}>
           {
              imgSource.map((imgSource,index)=>{
-              console.log(imgSource[index])
               return(
                 <Carousel.Item >
                   <div className="img-carousel-container">
