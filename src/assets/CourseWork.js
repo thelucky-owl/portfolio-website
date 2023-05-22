@@ -18,6 +18,13 @@ import ontPoster from '../assets/images/courseWork/ontPoster.jpg'
 import img1 from '../assets/images/laravel 1.png'
 import img2 from '../assets/images/maritiemMuseum1.png'
 import img3 from '../assets/images/seriousGame1.png'
+import aiPoster from '../assets/images/courseWork/adobe/bioshockPoster.png'
+import aiBioshockSketch from '../assets/images/courseWork/adobe/bioshockSketch.jpg'
+import aiBioshockSketch1 from '../assets/images/courseWork/adobe/posterConcept.jpg'
+import aiBioshockSketch2 from '../assets/images/courseWork/adobe/posterConcept2.jpg'
+import flowerEye from '../assets/images/courseWork/adobe/flowerEye.png'
+import flowerEyeSketch from '../assets/images/courseWork/adobe/flowerEyeSketch.png'
+import flowerSketch from '../assets/images/courseWork/adobe/flowerSketch.png'
 
 export const CourseWork =[
     {   id:"1",
@@ -54,5 +61,14 @@ export const CourseWork =[
         detailDescription: "Some pixel art made for programming courses that went unfortunately unused",
         showing: false,
         carouselImgUrls:[pixelart1,pixelart2,pixelart3]
+    },
+    {
+        id:"5",
+        title:"Adobe illustrator",
+        description:"",
+        imgUrl:aiPoster,
+        detailDescription: "various illustration i made for a course about Adobe illustrator. The poster with the city was the final assignment, the poster is based on the game bioshock. The in-game architecture is very strongly influenced by art deco, so I used that as inspiration for the poster as well.",
+        showing: false,
+        carouselImgUrls:[aiPoster,aiBioshockSketch,aiBioshockSketch1,aiBioshockSketch2,flowerEye,flowerEyeSketch,flowerSketch]
     },
 ];
