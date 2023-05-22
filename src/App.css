@@ -7,7 +7,11 @@ body{
   text-align: center;
 }
 
-
+.read-button{
+  background-color: #268b2a !important;
+  border: #1e7a21 solid 1px !important;
+  margin-bottom: 8px;
+}
 
 .banner{
   margin-top: 0;
